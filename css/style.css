@@ -16,6 +16,13 @@
     font-size: 16px;
 }
 
+/* Reset margins and paddings on both html and body */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .text-preset-1, .text-preset-2, .text-preset-3 {
     line-height: 100%;
 }
@@ -48,4 +55,8 @@
     font-size: 1rem;
     font-weight: 700;
     line-height: 150%;
+}
+
+img {
+    width: 100%;
 }
